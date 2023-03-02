@@ -632,7 +632,6 @@ function []=alphabetical_list()
 %<a href="matlab:help utc_offset">utc_offset</a>                     - Returns the TAI-UTC offset for the given dates
 %<a href="matlab:help uti2sub">uti2sub</a>                        - Square matrix upper triangle linear indices to subscripts
 %<a href="matlab:help validseizmo">validseizmo</a>                    - Returns valid SEIZMO datafile filetypes or versions
-%<a href="matlab:help vecnorm">vecnorm</a>                        - Returns vector norms
 %<a href="matlab:help version_compare">version_compare</a>                - Compares versions strings given in XX.XX.XX.... format
 %<a href="matlab:help versioninfo">versioninfo</a>                    - Returns version info for SEIZMO data records
 %<a href="matlab:help versioninfo_cache">versioninfo_cache</a>              - Check/Change VERSIONINFO caching ON=TRUE / OFF=FALSE

@@ -101,7 +101,6 @@ function []=sz_toc_misc()
 %<a href="matlab:help unsort">unsort</a>               - Undoes a sort operation using the returned sort indices
 %<a href="matlab:help unixcompressavi">unixcompressavi</a>      - Compress an AVI file in Unix with "MEncoder"
 %<a href="matlab:help uti2sub">uti2sub</a>              - Square matrix upper triangle linear indices to subscripts
-%<a href="matlab:help vecnorm">vecnorm</a>              - Returns vector norms
 %<a href="matlab:help version_compare">version_compare</a>      - Compares versions strings given in XX.XX.XX.... format
 %<a href="matlab:help wedge">wedge</a>                - Polar coordinate wedge plot
 %<a href="matlab:help wgrid">wgrid</a>                - Wedge grid lines
