@@ -156,6 +156,8 @@ function []=noise_stack(indir,outdir,pair,varargin)
 %
 %     Written by Garrett Euler (ggeuler at wustl dot edu)
 %     Last Updated July 21, 2014 at 11:15 GMT
+%
+% Last modified by sirawich-at-princeton.edu: 03/02/2023
 
 % todo:
 % - overlap option

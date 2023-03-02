@@ -194,6 +194,8 @@ function []=noise_process(indir,outdir,steps,varargin)
 %
 %     Written by Garrett Euler (ggeuler at wustl dot edu)
 %     Last Updated July 14, 2014 at 11:15 GMT
+%
+% Last modified by sirawich-at-princeton.edu: 03/02/2023
 
 % todo:
 % - 3cmp support

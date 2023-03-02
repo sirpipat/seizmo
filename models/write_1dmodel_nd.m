@@ -53,6 +53,8 @@ function []=write_1dmodel_nd(file,model,overwrite,noheader)
 %
 %     Written by Garrett Euler (ggeuler at wustl dot edu)
 %     Last Updated Jan. 26, 2014 at 10:35 GMT
+%
+% Last modified by sirawich-at-princeton.edu: 03/02/2023
 
 % todo
 

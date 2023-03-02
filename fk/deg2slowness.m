@@ -32,6 +32,8 @@ function [slow]=deg2slowness(ph,deg)
 %
 %     Written by Garrett Euler (ggeuler at wustl dot edu)
 %     Last Updated Sep.  6, 2012 at 10:35 GMT
+%
+% Last modified by sirawich-at-princeton.edu: 03/02/2023
 
 % todo
 

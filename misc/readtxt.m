@@ -43,6 +43,8 @@ function [txt,file]=readtxt(file,filterspec)
 %
 %     Written by Garrett Euler (ggeuler at wustl dot edu)
 %     Last Updated Feb.  9, 2014 at 13:00 GMT
+%
+% Last modified by sirawich-at-princeton.edu: 03/02/2023
 
 % todo:
 

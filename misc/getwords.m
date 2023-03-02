@@ -46,6 +46,8 @@ function [words]=getwords(str,delimiter,collapse)
 %
 %     Written by Garrett Euler (ggeuler at wustl dot edu)
 %     Last Updated Nov.  1, 2011 at 13:00 GMT
+%
+% Last modified by sirawich-at-princeton.edu: 03/02/2023
 
 % todo:
 

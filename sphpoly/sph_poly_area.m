@@ -64,7 +64,9 @@ function [area]=sph_poly_area(lat,lon,method,ellipsoid)
 %
 %     Written by Garrett Euler (ggeuler at wustl dot edu)
 %     Last Updated Feb. 18, 2011 at 19:30 GMT
-
+%
+% Last modified by sirawich-at-princeton.edu: 03/02/2023
+  
 % todo:
 
 % check nargin

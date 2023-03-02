@@ -40,6 +40,8 @@ function [lgc]=sph_poly_in(vlatlon,poly,plat,plon,overlap)
 %
 %     Written by Garrett Euler (ggeuler at wustl dot edu)
 %     Last Updated Feb. 18, 2011 at 15:05 GMT
+%
+% Last modified by sirawich-at-princeton.edu: 03/02/2023
 
 % todo:
 

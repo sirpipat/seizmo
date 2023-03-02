@@ -45,6 +45,8 @@ function [data]=arrivals2picks(data,phaselist,idx,varargin)
 %
 %     Written by Garrett Euler (ggeuler at wustl dot edu)
 %     Last Updated Mar. 15, 2012 at 11:15 GMT
+%
+% Last modified by sirawich-at-princeton.edu: 03/02/2023
 
 % todo:
 

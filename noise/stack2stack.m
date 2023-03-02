@@ -127,6 +127,8 @@ function []=stack2stack(stackdir,newspan,varargin)
 %
 %     Written by Garrett Euler (ggeuler at wustl dot edu)
 %     Last Updated July 17, 2014 at 11:15 GMT
+%
+% Last modified by sirawich-at-princeton.edu: 03/02/2023
 
 % todo:
 % - overlap option

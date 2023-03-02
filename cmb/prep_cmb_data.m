@@ -72,6 +72,8 @@ function [cmt]=prep_cmb_data(indir,outdir,sodcsv,src)
 %
 %     Written by Garrett Euler (ggeuler at wustl dot edu)
 %     Last Updated Jan. 27, 2014 at 13:35 GMT
+%
+% Last modified by sirawich-at-princeton.edu: 03/02/2023
 
 % todo:
 

@@ -33,6 +33,8 @@ function []=noise_rms_calc(indir)
 %
 %     Written by Garrett Euler (ggeuler at wustl dot edu)
 %     Last Updated Mar.  1, 2014 at 11:15 GMT
+%
+% Last modified by sirawich-at-princeton.edu: 03/02/2023
 
 % todo:
 

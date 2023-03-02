@@ -27,6 +27,8 @@ function []=noise_mat2sac(noisedir,rmflag)
 %
 %     Written by Garrett Euler (ggeuler at wustl dot edu)
 %     Last Updated Mar. 26, 2013 at 13:50 GMT
+%
+% Last modified by sirawich-at-princeton.edu: 03/02/2023
 
 % todo:
 

@@ -45,6 +45,8 @@ function []=writesacpz_rdseed(pz,filename,oflag)
 %
 %     Written by Garrett Euler (ggeuler at wustl dot edu)
 %     Last Updated Mar.  6, 2014 at 15:05 GMT
+%
+% Last modified by sirawich-at-princeton.edu: 03/02/2023
 
 % todo:
 

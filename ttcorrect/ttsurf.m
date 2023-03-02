@@ -34,6 +34,8 @@ function [tt]=ttsurf(model,wave,speed,period,evlalo,stlalo)
 %
 %     Written by Garrett Euler (ggeuler at wustl dot edu)
 %     Last Updated June  5, 2011 at 09:15 GMT
+%
+% Last modified by sirawich-at-princeton.edu: 03/02/2023
 
 % todo
 % - love waves, group and phase, more models ...

@@ -51,6 +51,8 @@ function [grp,ax]=selectclusters(data,grp,opt,varargin)
 %
 %     Written by Garrett Euler (ggeuler at wustl dot edu)
 %     Last Updated Apr.  3, 2012 at 20:00 GMT
+%
+% Last modified by sirawich-at-princeton.edu: 03/02/2023
 
 % todo:
 

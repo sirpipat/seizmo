@@ -73,6 +73,8 @@ function [varargout]=cmb_1dmodel_library(varargin)
 %
 %     Written by Garrett Euler (ggeuler at wustl dot edu)
 %     Last Updated Feb. 28, 2011 at 23:00 GMT
+%
+% Last modified by sirawich-at-princeton.edu: 03/02/2023
 
 % todo:
 % - models should have named discontinuities field

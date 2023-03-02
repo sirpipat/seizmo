@@ -40,6 +40,8 @@ function [data]=genname(data,style)
 %
 %     Written by Garrett Euler (ggeuler at wustl dot edu)
 %     Last Updated Sep.  9, 2013 at 01:45 GMT
+%
+% Last modified by sirawich-at-princeton.edu: 03/02/2023
 
 % todo:
 
