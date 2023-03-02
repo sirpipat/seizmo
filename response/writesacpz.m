@@ -108,7 +108,7 @@ if(isempty(file))
     file=[path fs file];
 else
     % check file
-    if(~isstring(file))
+    if(~isstring1d(file))
         error('seizmo:writesacpz:fileNotString',...
             'FILE must be a string!');
     end

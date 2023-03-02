@@ -236,7 +236,7 @@ end
 opt=noise_process_parameters(varargin{:});
 
 % check directories
-if(~isstring(indir))
+if(~isstring1d(indir))
     error('seizmo:noise_process:fileNotString',...
         'INDIR must be a string!');
 end
@@ -246,7 +246,7 @@ if(~exist(indir,'dir'))
         ['Input Directory: %s\n' ...
         'Does not exist (or is not a directory)!'],indir);
 end
-if(~isstring(outdir))
+if(~isstring1d(outdir))
     error('seizmo:noise_process:fileNotString',...
         'OUTDIR must be a string!');
 end

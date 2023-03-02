@@ -96,7 +96,7 @@ end
 fs=filesep;
 
 % check indir
-if(~isstring(indir))
+if(~isstring1d(indir))
     error('seizmo:gooduglycheck:badInput',...
         'INDIR must be a directory location!');
 end
@@ -108,7 +108,7 @@ end
 
 % check outdir
 reply='o';
-if(~isstring(outdir))
+if(~isstring1d(outdir))
     error('seizmo:gooduglycheck:badInput',...
         'OUTDIR must be a valid directory path!');
 end

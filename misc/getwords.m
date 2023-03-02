@@ -53,7 +53,7 @@ function [words]=getwords(str,delimiter,collapse)
 error(nargchk(1,3,nargin));
 
 % check str
-if(~isstring(str))
+if(~isstring1d(str))
     error('seizmo:getwords:badInput','STR must be a char array!');
 end
 
