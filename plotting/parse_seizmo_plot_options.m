@@ -9,15 +9,18 @@ function [opt]=parse_seizmo_plot_options(varargin)
 % Jan. 30, 2013 - more distcut aliases
 % Feb. 27, 2013 - parent allowed for specifying axis
 % Jan. 27, 2014 - fix for octave handling of function handles
+% Mar.  7, 2023 - change the function call to star69s
+%
+% Last modified by sirawich-at-princeton.edu: 03/07/2023
 
 % todo:
 % - value checking
 % - documentation
 % - support more plotting options and functions
 % - per cmp linestyle, color, linewidth
-
+  
 % put function-dependent defaults at front of options list
-pf=star69; % who is the calling function?
+pf=star69s; % who is the calling function?
 switch pf
     case {'drawmarkers' 'dm'}
         varargin=[{'m' true 'mac' 'g' 'mfc' 'r' 'moc' [1 .5 0] ...
