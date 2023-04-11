@@ -23,7 +23,7 @@ function map=hsvcustom(hsv,m)
 %     colormap(flipud(hsvcustom([0.3 0.5 0.5])))
 %
 %    See also: HSV, HSV2RGB, RGB2HSV, RED2GREEN, BLUE2RED, GREEN2BLUE,
-%              SPLIT, SEIS, GMT_OCEAN, DRYWET, GEBCO, SEALAND, GMT_RAINBOW,
+%              SPLITS, SEIS, GMT_OCEAN, DRYWET, GEBCO, SEALAND, GMT_RAINBOW,
 %              RELIEF, GLOBE_SEA, GLOBE_LAND, SEALAND_SEA, SEALAND_LAND,
 %              TOPO_LAND, FIRE, HSVSPIN, NIGHTTIME, DUSK, DAWN
 

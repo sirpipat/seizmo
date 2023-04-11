@@ -1,11 +1,11 @@
-function [map]=split(m)
-%SPLIT    Lightblue-Blue-Black-Red-Lightred colormap
+function [map]=splits(m)
+%SPLITS    Lightblue-Blue-Black-Red-Lightred colormap
 %
-%    Usage:    map=split(m)
+%    Usage:    map=splits(m)
 %
 %    Description:
-%     MAP=SPLIT(M) returns a Mx3 matrix of RGB color values going from
-%     light blue to blue to black to red to light red.  SPLIT by itself
+%     MAP=SPLITS(M) returns a Mx3 matrix of RGB color values going from
+%     light blue to blue to black to red to light red.  SPLITS by itself
 %     sets M to match the current figure's colormap size.  If no figure
 %     exists, one is created.
 %
@@ -14,10 +14,10 @@ function [map]=split(m)
 %
 %    Examples:
 %     % Set the current figure's colormap:
-%     colormap(split)
+%     colormap(splits)
 %
 %     % To go in reverse:
-%     colormap(flipud(split))
+%     colormap(flipud(splits))
 %
 %    See also: RED2GREEN, BLUE2RED, GREEN2BLUE, SEIS, GMT_OCEAN, DRYWET,
 %              GEBCO, SEALAND, GMT_RAINBOW, RELIEF, GLOBE_SEA, GLOBE_LAND,
@@ -30,7 +30,9 @@ function [map]=split(m)
 %
 %     Written by Garrett Euler (ggeuler at wustl dot edu)
 %     Last Updated Feb. 22, 2012 at 00:40 GMT
-
+%
+%     Last modified by sirawich-at-princeton.edu: 04/11/2023
+  
 % todo:
 
 if nargin < 1, m = size(get(gcf,'colormap'),1); end

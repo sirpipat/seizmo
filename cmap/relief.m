@@ -21,7 +21,7 @@ function [map]=relief(m)
 %     % To use the colormap in reverse:
 %     colormap(flipud(relief))
 %
-%    See also: RED2GREEN, BLUE2RED, GREEN2BLUE, SPLIT, SEIS, GMT_OCEAN,
+%    See also: RED2GREEN, BLUE2RED, GREEN2BLUE, SPLITS, SEIS, GMT_OCEAN,
 %              DRYWET, GEBCO, SEALAND, GMT_RAINBOW, GLOBE_SEA, GLOBE_LAND,
 %              SEALAND_SEA, SEALAND_LAND, TOPO_LAND, RITZ, FIRE, NIGHTTIME,
 %              DUSK, DAWN, HSVSPIN, HSVCUSTOM

@@ -21,7 +21,7 @@ function map=hsvspin(m)
 %     colormap(flipud(hsvspin))
 %
 %    See also: HSV, HSV2RGB, RGB2HSV, RED2GREEN, BLUE2RED, GREEN2BLUE,
-%              SPLIT, SEIS, GMT_OCEAN, DRYWET, GEBCO, SEALAND, GMT_RAINBOW,
+%              SPLITS, SEIS, GMT_OCEAN, DRYWET, GEBCO, SEALAND, GMT_RAINBOW,
 %              RELIEF, GLOBE_SEA, GLOBE_LAND, SEALAND_SEA, SEALAND_LAND,
 %              TOPO_LAND, FIRE, NIGHTTIME, DUSK, DAWN, HSVSPIN
 

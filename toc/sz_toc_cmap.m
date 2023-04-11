@@ -21,7 +21,7 @@ function []=sz_toc_cmap()
 %<a href="matlab:help sealand">sealand</a>      - Colormap for ocean and land
 %<a href="matlab:help sealand_sea">sealand_sea</a>  - Sea portion of the sealand colormap
 %<a href="matlab:help seis">seis</a>         - Colormap for seismology
-%<a href="matlab:help split">split</a>        - Lightblue-Blue-Black-Red-Lightred colormap
+%<a href="matlab:help splits">split</a>        - Lightblue-Blue-Black-Red-Lightred colormap
 %<a href="matlab:help topo_land">topo_land</a>    - Colormap used for topography in tectonic maps
 %
 % <a href="matlab:help seizmo">SEIZMO - Passive Seismology Toolbox</a>

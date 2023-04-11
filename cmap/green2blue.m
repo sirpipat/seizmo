@@ -18,7 +18,7 @@ function [map]=green2blue(m)
 %     % To go blue to green:
 %     colormap(flipud(green2blue))
 %
-%    See also: RED2GREEN, BLUE2RED, SPLIT, SEIS, GMT_OCEAN, DRYWET,
+%    See also: RED2GREEN, BLUE2RED, SPLITS, SEIS, GMT_OCEAN, DRYWET,
 %              GEBCO, SEALAND, GMT_RAINBOW, RELIEF, GLOBE_SEA, GLOBE_LAND,
 %              SEALAND_SEA, SEALAND_LAND, TOPO_LAND, RITZ, FIRE, NIGHTTIME,
 %              DUSK, DAWN, HSVSPIN, HSVCUSTOM

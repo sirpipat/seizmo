@@ -20,7 +20,7 @@ function [map]=gmt_ocean(m)
 %     % To use the colormap in reverse:
 %     colormap(flipud(gmt_ocean))
 %
-%    See also: RED2GREEN, BLUE2RED, GREEN2BLUE, SPLIT, SEIS, DRYWET,
+%    See also: RED2GREEN, BLUE2RED, GREEN2BLUE, SPLITS, SEIS, DRYWET,
 %              GEBCO, SEALAND, GMT_RAINBOW, RELIEF, GLOBE_SEA, GLOBE_LAND,
 %              SEALAND_SEA, SEALAND_LAND, TOPO_LAND, RITZ, FIRE, NIGHTTIME,
 %              DUSK, DAWN, HSVSPIN, HSVCUSTOM

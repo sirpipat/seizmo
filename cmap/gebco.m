@@ -19,7 +19,7 @@ function [map]=gebco(m)
 %     % To use the colormap in reverse:
 %     colormap(flipud(gebco))
 %
-%    See also: RED2GREEN, BLUE2RED, GREEN2BLUE, SPLIT, SEIS, GMT_OCEAN,
+%    See also: RED2GREEN, BLUE2RED, GREEN2BLUE, SPLITS, SEIS, GMT_OCEAN,
 %              DRYWET, SEALAND, GMT_RAINBOW, RELIEF, GLOBE_SEA, GLOBE_LAND,
 %              SEALAND_SEA, SEALAND_LAND, TOPO_LAND, RITZ, FIRE, NIGHTTIME,
 %              DUSK, DAWN, HSVSPIN, HSVCUSTOM

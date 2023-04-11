@@ -18,7 +18,7 @@ function [map]=nighttime(m)
 %     % Set the current figure's colormap:
 %     colormap(nighttime)
 %
-%    See also: BLUE2RED, GREEN2BLUE, SPLIT, SEIS, GMT_OCEAN, DRYWET, FIRE,
+%    See also: BLUE2RED, GREEN2BLUE, SPLITS, SEIS, GMT_OCEAN, DRYWET, FIRE,
 %              GEBCO, SEALAND, GMT_RAINBOW, RELIEF, GLOBE_SEA, GLOBE_LAND,
 %              SEALAND_SEA, SEALAND_LAND, TOPO_LAND, RITZ, RED2GREEN, DUSK,
 %              DAWN, HSVSPIN, HSVCUSTOM
