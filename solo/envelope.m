@@ -1,10 +1,10 @@
-function [data]=envelope(data)
-%ENVELOPE    Returns envelope of SEIZMO records
+function [data]=envelopes(data)
+%ENVELOPES    Returns envelope of SEIZMO records
 %
-%    Usage:    data=envelope(data)
+%    Usage:    data=envelopes(data)
 %
 %    Description:
-%     ENVELOPE(DATA) returns the envelope (the point-by-point complex
+%     ENVELOPES(DATA) returns the envelope (the point-by-point complex
 %     magnitude of a record's analytic signal) of records in SEIZMO struct
 %     DATA.  The envelope is related to the Hilbert transform, the analytic
 %     signal, and the instantaneous phase of a signal by the following
@@ -26,7 +26,7 @@ function [data]=envelope(data)
 %
 %    Examples:
 %     % Plot the envelope against the data:
-%     recordsection([data; envelope(data)])
+%     recordsection([data; envelopes(data)])
 %
 %    See also: HILBRT, INSTANTPHASE, INSTANTFREQ, OMEGAHILBERT,
 %              OMEGAANALYTIC
@@ -52,6 +52,8 @@ function [data]=envelope(data)
 %
 %     Written by Garrett Euler (ggeuler at wustl dot edu)
 %     Last Updated Feb.  4, 2012 at 11:00 GMT
+%
+%     Last modified by sirawich-at-princeton.edu: 05/18/2023
 
 % todo:
 

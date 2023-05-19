@@ -37,7 +37,7 @@ function [win,peak,bad]=autowindow(data,thresh,reach,env,warn)
 %     windata=cut(data,win(:,1),win(:,2));
 %     plot0(windata);
 %
-%    See also: USERWINDOW, ENVELOPE, CUT
+%    See also: USERWINDOW, ENVELOPES, CUT
 
 %     Version History:
 %        May  20, 2010 - initial version
@@ -46,6 +46,8 @@ function [win,peak,bad]=autowindow(data,thresh,reach,env,warn)
 %
 %     Written by Garrett Euler (ggeuler at wustl dot edu)
 %     Last Updated Mar. 13, 2012 at 18:50 GMT
+%
+%     Last modified by sirawich-at-princeton.edu: 05/18/2023
 
 % todo:
 
@@ -113,7 +115,7 @@ try
     leven=~strcmpi(leven,'false');
     
     % envelope those desired
-    if(any(env)); data(env)=envelope(data(env)); end
+    if(any(env)); data(env)=envelopes(data(env)); end
     
     % detail message
     if(verbose)

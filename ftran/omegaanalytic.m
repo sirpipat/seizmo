@@ -22,7 +22,7 @@ function [data]=omegaanalytic(data)
 %     pdata=solofun(data,@angle);
 %
 %    See also: OMEGAHILBERT, OMEGASHIFT, OMEGADIVIDE, OMEGAMULTIPLY,
-%              OMEGAGAUSSIAN, DFT, IDFT, HILBRT, ENVELOPE, INSTANTPHASE,
+%              OMEGAGAUSSIAN, DFT, IDFT, HILBRT, ENVELOPES, INSTANTPHASE,
 %              INSTANTFREQ
 
 %     Version History:
@@ -31,7 +31,8 @@ function [data]=omegaanalytic(data)
 %
 %     Written by Garrett Euler (ggeuler at wustl dot edu)
 %     Last Updated Feb. 14, 2013 at 15:05 GMT
-
+%
+%     Last modified by sirawich-at-princeton.edu: 05/18/2023
 % todo:
 
 % check nargin

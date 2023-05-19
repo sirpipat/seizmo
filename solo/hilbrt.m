@@ -15,7 +15,7 @@ function [data]=hilbrt(data)
 %     % Quick way to do a positive pi/2 phase shift:
 %     data=hilbrt(multiply(data,-1))
 %
-%    See also: ENVELOPE, INSTANTPHASE, INSTANTFREQ, OMEGAHILBERT,
+%    See also: ENVELOPES, INSTANTPHASE, INSTANTFREQ, OMEGAHILBERT,
 %              OMEGAANALYTIC
 
 %     Version History:
@@ -38,6 +38,8 @@ function [data]=hilbrt(data)
 %
 %     Written by Garrett Euler (ggeuler at wustl dot edu)
 %     Last Updated Feb.  4, 2012 at 11:00 GMT
+%
+%     Last modified by sirawich-at-princeton.edu: 05/18/2023
 
 % todo:
 

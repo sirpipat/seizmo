@@ -32,9 +32,9 @@ function [data]=slidingabsmean(data,n,varargin)
 %
 %    Examples:
 %     % Compare an envelope and a 21-sample sliding-window absolute-mean:
-%     plot2([envelope(data(1)) slidingabsmean(data(1),10)])
+%     plot2([envelopes(data(1)) slidingabsmean(data(1),10)])
 %
-%    See also: ENVELOPE, SLIDINGAVG, SLIDINGRMS, SLIDINGFUN, SOLOFUN
+%    See also: ENVELOPES, SLIDINGAVG, SLIDINGRMS, SLIDINGFUN, SOLOFUN
 
 %     Version History:
 %        Oct.  5, 2008 - initial version
@@ -57,6 +57,8 @@ function [data]=slidingabsmean(data,n,varargin)
 %
 %     Written by Garrett Euler (ggeuler at wustl dot edu)
 %     Last Updated Aug.  2, 2013 at 09:45 GMT
+%
+%     Last modified by sirawich-at-princeton.edu: 05/18/2023
 
 % todo:
 

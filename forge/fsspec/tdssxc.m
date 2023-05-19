@@ -86,6 +86,8 @@ function [s]=tdssxc(xcdata,smax,spts,varargin)
 %
 %     Written by Garrett Euler (ggeuler at wustl dot edu)
 %     Last Updated Sep. 28, 2012 at 14:05 GMT
+%
+%     Last modified by sirawich-at-princeton.edu: 05/18/2023
 
 % todo:
 
@@ -304,7 +306,7 @@ x=round((-p-b(:,ones(1,prod(spts)))')/delta(1));
 %xcdata=hilbrt(xcdata);
 
 % envelope testing (Burtin et al 2010, Gu & Shen 2012)
-%xcdata=envelope(xcdata);
+%xcdata=envelopes(xcdata);
 
 % detail message
 if(verbose)

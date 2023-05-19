@@ -32,10 +32,10 @@ function [data]=instantfreq(data)
 %
 %    Examples:
 %     % Plot up the various components of the analytic signal:
-%     plot1([data hilbrt(data) envelope(data) ...
+%     plot1([data hilbrt(data) envelopes(data) ...
 %         instantphase(data) instantfreq(data)])
 %
-%    See also: HILBRT, ENVELOPE, INSTANTPHASE, OMEGAHILBERT,
+%    See also: HILBRT, ENVELOPES, INSTANTPHASE, OMEGAHILBERT,
 %              OMEGAANALYTIC
 
 %     Version History:
@@ -44,6 +44,8 @@ function [data]=instantfreq(data)
 %
 %     Written by Garrett Euler (ggeuler at wustl dot edu)
 %     Last Updated June 16, 2010 at 10:50 GMT
+%
+%     Last modified by sirawich-at-princeton.edu: 05/18/2023
 
 % todo:
 

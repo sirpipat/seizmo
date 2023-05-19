@@ -32,9 +32,9 @@ function [data]=slidingrms(data,n,varargin)
 %
 %    Examples:
 %     % Compare an envelope and 21-sample sliding-window root-mean-square:
-%     plot2([envelope(data(1)) slidingrms(data(1),10)])
+%     plot2([envelopes(data(1)) slidingrms(data(1),10)])
 %
-%    See also: ENVELOPE, SLIDINGABSMEAN, SLIDINGFUN, SLIDINGAVG, SOLOFUN
+%    See also: ENVELOPES, SLIDINGABSMEAN, SLIDINGFUN, SLIDINGAVG, SOLOFUN
 
 %     Version History:
 %        Apr.  9, 2008 - initial version
@@ -62,6 +62,8 @@ function [data]=slidingrms(data,n,varargin)
 %
 %     Written by Garrett Euler (ggeuler at wustl dot edu)
 %     Last Updated Aug.  2, 2013 at 09:45 GMT
+%
+%     Last modified by sirawich-at-princeton.edu: 05/18/2023
 
 % todo:
 

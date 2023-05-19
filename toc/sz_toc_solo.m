@@ -4,7 +4,7 @@ function []=sz_toc_solo()
 %<a href="matlab:help clip">clip</a>                   - Clip SEIZMO data above a threshhold
 %<a href="matlab:help differentiate">differentiate</a>          - Differentiate SEIZMO records
 %<a href="matlab:help divide">divide</a>                 - Divide SEIZMO records by a constant
-%<a href="matlab:help envelope">envelope</a>               - Return envelopes of SEIZMO records
+%<a href="matlab:help envelopes">envelopes</a>               - Return envelopes of SEIZMO records
 %<a href="matlab:help getnorm">getnorm</a>                - Return normalizers for SEIZMO records
 %<a href="matlab:help getpolynomial">getpolynomial</a>          - Get polynomial fit to SEIZMO records
 %<a href="matlab:help getspline">getspline</a>              - Get smooth spline fit of SEIZMO records%<a href="matlab:help getvaluefun">getvaluefun</a> - Applies a function to SEIZMO records and returns the value
